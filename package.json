@@ -1,0 +1,32 @@
+{
+  "name": "pnp-aion",
+  "version": "0.0.1",
+  "description": "An AION plugin for the Pocket Node app",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pokt-network/pnp-aion.git"
+  },
+  "keywords": [
+    "aion",
+    "blockchain",
+    "infrastructure",
+    "pokt",
+    "pocket",
+    "pocket-node",
+    "plugin",
+    "decentralized"
+  ],
+  "author": "Luis C. de Leon <luis@pokt.network>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pokt-network/pnp-aion/issues"
+  },
+  "homepage": "https://github.com/pokt-network/pnp-aion#readme",
+  "dependencies": {
+    "aion-web3": "0.0.3"
+  }
+}
