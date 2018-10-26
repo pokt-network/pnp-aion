@@ -22,11 +22,11 @@ The following object describes the format of the JSON file you need to use to co
 {
   "5777": {
     "aion_node": "http://127.0.0.1:8545",
-    "aion_network_id": "5777"
+    "network_id": "5777"
   },
   "4": {
     "aion_node": "http://127.0.0.1:8546",
-    "aion_network_id": "4"
+    "network_id": "4"
   }
 }
 ```
