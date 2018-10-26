@@ -16,7 +16,7 @@ The following object describes the format of the JSON file you need to use to co
 ***Notes:***
 * Each key in the configuration object must be a valid subnetwork ID (`1` for mainnet, `4` for rinkeby and so on).
 * The `eth_node` attribute must be a HTTP or HTTPS url.
-* The default value for `eth_node` is `http://127.0.0.1:8545` and for `eth_network_id` is `5777`
+* The default value for `eth_node` is `http://127.0.0.1:8545` and for `network_id` is `5777`
 
 ```
 {
