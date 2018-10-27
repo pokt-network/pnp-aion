@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/pokt-network/pnp-aion#readme",
   "dependencies": {
-    "aion-web3": "git@github.com:aionnetwork/aion_web3.git",
+    "aion-web3": "1.0.0",
     "ethereumjs-abi": "^0.6.5"
   },
   "devDependencies": {
