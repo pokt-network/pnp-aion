@@ -1,6 +1,6 @@
 {
   "name": "pnp-aion",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "An AION plugin for the Pocket Node app",
   "main": "lib/index.js",
   "scripts": {
@@ -28,7 +28,8 @@
   "homepage": "https://github.com/pokt-network/pnp-aion#readme",
   "dependencies": {
     "aion-web3": "https://github.com/aionnetwork/aion_web3.git",
-    "ethereumjs-abi": "^0.6.5"
+    "ethereumjs-abi": "^0.6.5",
+    "lodash.padstart": "^4.6.1"
   },
   "devDependencies": {
     "lerna": "^3.4.3",
