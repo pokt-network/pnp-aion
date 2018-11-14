@@ -15,8 +15,8 @@ The following object describes the format of the JSON file you need to use to co
 
 ***Notes:***
 * Each key in the configuration object must be a valid subnetwork ID (`1` for mainnet, `4` for rinkeby and so on).
-* The `eth_node` attribute must be a HTTP or HTTPS url.
-* The default value for `eth_node` is `http://127.0.0.1:8545` and for `network_id` is `5777`
+* The `aion_node` attribute must be a HTTP or HTTPS url.
+* The default value for `aion_node` is `http://127.0.0.1:8545` and for `network_id` is `5777`
 
 ```
 {
@@ -32,7 +32,7 @@ The following object describes the format of the JSON file you need to use to co
 ```
 
 ## Submitting requests to a Pocket Node using this plugin
-Before diving into the specifications on how to submit requests to the Ethereum network with this plugin, please review the Pocket Node Client Developer documentation found [here](https://github.com/pokt-network/pocket-node/blob/master/CLIENT_DEVELOPERS.md).
+Before diving into the specifications on how to submit requests to the AION network with this plugin, please review the Pocket Node Client Developer documentation found [here](https://github.com/pokt-network/pocket-node/blob/master/CLIENT_DEVELOPERS.md).
 
 ### Submitting transactions
 Transactions must be signed with the account private key and submitted in the `serialized_tx` param of the `/transactions` endpoint. The `tx_metadata` param can be left blank.
