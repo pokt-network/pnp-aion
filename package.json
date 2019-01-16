@@ -1,6 +1,6 @@
 {
   "name": "pnp-aion",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "An AION plugin for the Pocket Node app",
   "main": "lib/index.js",
   "scripts": {
